@@ -24,7 +24,7 @@ elif [[ $MODEL == opt-6.7b ]] || [[ $MODEL == llama-7b ]]; then
     else
         BASE_MODEL=facebook/opt-6.7b
     fi
-    WORLD_SIZE=4 CUDA_VISIBLE_DEVICES=4,5,6,7 torchrun --nproc_per_node=4 --master_port=1234 ft_llm.py \
+    WORLD_SIZE=4 CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port=1234 ft_llm.py \
         --base_model   $BASE_MODEL \
         --data_path 'data/nli_for_simcse.csv' \
         --batch_size 256 \
