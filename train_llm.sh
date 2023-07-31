@@ -16,7 +16,7 @@ if [[ $MODEL == opt-125m ]] || [[ $MODEL == opt-350m ]] || [[ $MODEL == opt-1.3b
         --lora_alpha 16 \
         --lora_dropout 0.05 \
         --output_dir ${MODEL}-lora \
-        --mask_embedding_sentence_template $TEMPLATE --use_neg_sentence --use_4bit --save_steps 50
+        --mask_embedding_sentence_template $TEMPLATE --use_neg_sentence --save_steps 50 --load_kbit 4
 elif [[ $MODEL == opt-6.7b ]] || [[ $MODEL == llama-7b ]]; then
     if [[ $MODEL == llama-7b ]]; then
         BASE_MODEL=decapoda-research/llama-7b-hf
@@ -36,7 +36,7 @@ elif [[ $MODEL == opt-6.7b ]] || [[ $MODEL == llama-7b ]]; then
         --lora_alpha 16 \
         --lora_dropout 0.05 \
         --output_dir ${MODEL}-lora  --is_sentemb \
-        --mask_embedding_sentence_template $TEMPLATE --use_neg_sentence --use_4bit --save_steps 50
+        --mask_embedding_sentence_template $TEMPLATE --use_neg_sentence --save_steps 50 --load_kbit 4
 elif [[ $MODEL == opt-13b ]] || [[ $MODEL == llama-13b ]]; then
     if [[ $MODEL == llama-13b ]]; then
         BASE_MODEL=decapoda-research/llama-13b-hf
@@ -55,5 +55,5 @@ elif [[ $MODEL == opt-13b ]] || [[ $MODEL == llama-13b ]]; then
         --lora_alpha 16 \
         --lora_dropout 0.05 \
         --output_dir ${MODEL}-lora  --is_sentemb \
-        --mask_embedding_sentence_template $TEMPLATE --use_neg_sentence --use_4bit --save_steps 50
+        --mask_embedding_sentence_template $TEMPLATE --use_neg_sentence --save_steps 50 --load_kbit 4
 fi
