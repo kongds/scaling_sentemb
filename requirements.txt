@@ -1,0 +1,13 @@
+transformers @ git+https://github.com/huggingface/transformers.git@8f093fb799246f7dd9104ff44728da0c53a9f67a
+peft @ git+https://github.com/huggingface/peft.git@42ab10699bcb9fa5e1092373959995930a170f43
+bitsandbytes==0.39.0
+tensor-parallel==1.2.8
+scipy==1.5.4
+datasets==1.2.1
+pandas==1.1.5
+scikit-learn==0.24.0
+prettytable==2.1.0
+gradio
+torch==2.0.0
+setuptools==49.3.0
+dill==0.3.4
