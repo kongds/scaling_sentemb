@@ -126,4 +126,4 @@ bash eval_checkpoint.sh opt-2.7b-lora # first evaluate checkpoint on STS-B dev. 
 ```
 
 ## Acknowledgement
-Our Code is based on PromptBERT
+Our Code is based on SimCSE and alpaca-lora
