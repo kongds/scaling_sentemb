@@ -134,7 +134,7 @@ bash run_icl.sh [opt-125m|opt-350m|opt-1.3b|opt-2.7b|opt-6.7b|opt-13b|opt-30b|op
 </thead>
 <tbody>
 <tr>
-<td align="center"><a href="https://huggingface.co/royokong/prompteol-opt-1.3b" rel="nofollow" style="font-size: 0.95em;">royokong/prompteol-opt-1.3b</a></td>
+<td align="center"><a href="https://huggingface.co/royokong/prompteol-opt-1.3b" rel="nofollow" style="font-size: 0.93em;">royokong/prompteol-opt-1.3b</a></td>
 <td align="center">79.01</td>
 <td align="center">89.26</td>
 <td align="center">84.10</td>
@@ -145,7 +145,7 @@ bash run_icl.sh [opt-125m|opt-350m|opt-1.3b|opt-2.7b|opt-6.7b|opt-13b|opt-30b|op
 <td align="center">84.79</td>
 </tr>
 <tr>
-<td align="center"><a href="https://huggingface.co/royokong/prompteol-opt-2.7b" rel="nofollow" style="font-size: 0.95em;">royokong/prompteol-opt-2.7b</a></td>
+<td align="center"><a href="https://huggingface.co/royokong/prompteol-opt-2.7b" rel="nofollow" style="font-size: 0.93em;">royokong/prompteol-opt-2.7b</a></td>
 <td align="center">79.49</td>
 <td align="center">89.64</td>
 <td align="center">84.80</td>
@@ -156,7 +156,7 @@ bash run_icl.sh [opt-125m|opt-350m|opt-1.3b|opt-2.7b|opt-6.7b|opt-13b|opt-30b|op
 <td align="center">85.62</td>
 </tr>
 <tr>
-<td align="center"><a href="https://huggingface.co/royokong/prompteol-opt-6.7b" rel="nofollow" style="font-size: 0.95em;">royokong/prompteol-opt-6.7b</a></td>
+<td align="center"><a href="https://huggingface.co/royokong/prompteol-opt-6.7b" rel="nofollow" style="font-size: 0.93em;">royokong/prompteol-opt-6.7b</a></td>
 <td align="center">80.14</td>
 <td align="center">90.02</td>
 <td align="center">84.94</td>
@@ -167,7 +167,7 @@ bash run_icl.sh [opt-125m|opt-350m|opt-1.3b|opt-2.7b|opt-6.7b|opt-13b|opt-30b|op
 <td align="center">85.82</td>
 </tr>
 <tr>
-<td align="center"><a href="https://huggingface.co/royokong/prompteol-opt-13b" rel="nofollow" style="font-size: 0.95em;">royokong/prompteol-opt-13b</a></td>
+<td align="center"><a href="https://huggingface.co/royokong/prompteol-opt-13b" rel="nofollow" style="font-size: 0.93em;">royokong/prompteol-opt-13b</a></td>
 <td align="center">80.20</td>
 <td align="center">90.24</td>
 <td align="center">85.34</td>
@@ -189,7 +189,7 @@ bash run_icl.sh [opt-125m|opt-350m|opt-1.3b|opt-2.7b|opt-6.7b|opt-13b|opt-30b|op
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center"><a href="https://huggingface.co/royokong/prompteol-llama-7b" rel="nofollow" style="font-size: 0.95em;">royokong/prompteol-llama-7b</a></td>
+<td align="center"><a href="https://huggingface.co/royokong/prompteol-llama-7b" rel="nofollow" style="font-size: 0.93em;">royokong/prompteol-llama-7b</a></td>
 <td align="center">79.16</td>
 <td align="center">90.22</td>
 <td align="center">85.40</td>
@@ -200,7 +200,7 @@ bash run_icl.sh [opt-125m|opt-350m|opt-1.3b|opt-2.7b|opt-6.7b|opt-13b|opt-30b|op
 <td align="center">85.70</td>
 </tr>
 <tr>
-<td align="center"><a href="https://huggingface.co/royokong/prompteol-llama-13b" rel="nofollow" style="font-size: 0.95em;">royokong/prompteol-llama-13b</a></td>
+<td align="center"><a href="https://huggingface.co/royokong/prompteol-llama-13b" rel="nofollow" style="font-size: 0.93em;">royokong/prompteol-llama-13b</a></td>
 <td align="center">78.63</td>
 <td align="center">90.03</td>
 <td align="center">85.46</td>
