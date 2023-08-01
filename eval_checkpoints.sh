@@ -22,9 +22,9 @@ eval_results() {
         MODEL_PATH='facebook/opt-350m'
     elif [[ $1 == *"opt-1.3b"* ]]; then
         MODEL_PATH='facebook/opt-1.3b'
-    elif [[ $1 == *"opt-3b"* ]]; then
+    elif [[ $1 == *"opt-2.7b"* ]]; then
         MODEL_PATH='facebook/opt-2.7b'
-    elif [[ $1 == *"opt-7b"* ]]; then
+    elif [[ $1 == *"opt-6.7b"* ]]; then
         MODEL_PATH='facebook/opt-6.7b'
     elif [[ $1 == *"opt-13b"* ]]; then
         MODEL_PATH='facebook/opt-13b'

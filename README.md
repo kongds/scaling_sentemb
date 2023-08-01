@@ -302,7 +302,7 @@ bash train_llm.sh opt-2.7b # can be other models
 ### Test
 
 ``` sh
-bash eval_checkpoint.sh opt-2.7b-lora # first evaluate checkpoint on STS-B dev. and evaluate best checkpoint on STS tasks
+bash eval_checkpoints.sh opt-2.7b-lora # first evaluate checkpoint on STS-B dev. and evaluate best checkpoint on STS tasks
 ```
 
 ## Acknowledgement
