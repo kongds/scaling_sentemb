@@ -256,7 +256,7 @@ Using trained LoRA to get embeddings
 ``` python
 from peft import PeftModel
 peft_model = PeftModel.from_pretrained(model, "royokong/prompteol-opt-2.7b", torch_dtype=torch.float16)
-template = 'This_sentence_:_"*sent_0*"_means_in_one_word:'
+template = 'This_sentence_:_"*sent_0*"_means_in_one_word:"'
 inputs = tokenizer([template.replace('*sent_0*', i).replace('_', ' ') for i in texts], padding=True, return_tensors="pt")
 with torch.no_grad():
     embeddings = peft_model(**inputs, output_hidden_states=True, return_dict=True).hidden_states[-1][:, -1, :]
