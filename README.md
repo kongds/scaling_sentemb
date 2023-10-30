@@ -210,6 +210,16 @@ bash run_icl.sh [opt-125m|opt-350m|opt-1.3b|opt-2.7b|opt-6.7b|opt-13b|opt-30b|op
 <td align="center">82.69</td>
 <td align="center">85.85</td>
 </tr>
+<td align="center"><a href="https://huggingface.co/royokong/prompteol-llama-30b" rel="nofollow" style="font-size: 0.93em;">royokong/prompteol-llama-30b</a></td>
+<td align="center">79.72</td>
+<td align="center">90.25</td>
+<td align="center">85.85</td>
+<td align="center">90.04</td>
+<td align="center">86.27</td>
+<td align="center">89.14</td>
+<td align="center">82.38</td>
+<td align="center">86.24</td>
+</tr>
 </tbody>
 </table>
 
